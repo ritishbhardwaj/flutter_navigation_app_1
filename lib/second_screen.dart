@@ -12,7 +12,7 @@ class SecondScreen extends StatelessWidget {
           onPressed: () {
             Navigator.of(context).pop();
           },
-          child: Text("$title"), ),
+          child: Text("$title") , ),
       ),
     );
   }
